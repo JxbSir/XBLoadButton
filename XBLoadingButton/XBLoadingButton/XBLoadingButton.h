@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface XBLoadingButton : UIView
-
+- (void)setTitle:(NSString*)title;
+- (void)setTitleColor:(UIColor*)color;
+- (void)setTitleFont:(UIFont*)font;
+- (void)addAction:(void(^)(void))action;
+- (void)stop;
 @end

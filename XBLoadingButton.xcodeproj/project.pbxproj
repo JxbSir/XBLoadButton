@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D092C5C41ACD776B00D043D6 /* XBLoadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D092C5C31ACD776B00D043D6 /* XBLoadingButton.m */; };
 		D0DAD87A1ACD6E1F000A48A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DAD8791ACD6E1F000A48A0 /* main.m */; };
 		D0DAD87D1ACD6E1F000A48A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DAD87C1ACD6E1F000A48A0 /* AppDelegate.m */; };
 		D0DAD8801ACD6E1F000A48A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0DAD87F1ACD6E1F000A48A0 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D092C5C21ACD776B00D043D6 /* XBLoadingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XBLoadingButton.h; path = XBLoadingButton/XBLoadingButton.h; sourceTree = "<group>"; };
+		D092C5C31ACD776B00D043D6 /* XBLoadingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XBLoadingButton.m; path = XBLoadingButton/XBLoadingButton.m; sourceTree = "<group>"; };
 		D0DAD8741ACD6E1F000A48A0 /* XBLoadingButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBLoadingButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DAD8781ACD6E1F000A48A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DAD8791ACD6E1F000A48A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		D0DAD8761ACD6E1F000A48A0 /* XBLoadingButton */ = {
 			isa = PBXGroup;
 			children = (
+				D0DAD89D1ACD6E24000A48A0 /* XBLoadingButton */,
 				D0DAD87B1ACD6E1F000A48A0 /* AppDelegate.h */,
 				D0DAD87C1ACD6E1F000A48A0 /* AppDelegate.m */,
 				D0DAD87E1ACD6E1F000A48A0 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				D0DAD8921ACD6E20000A48A0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0DAD89D1ACD6E24000A48A0 /* XBLoadingButton */ = {
+			isa = PBXGroup;
+			children = (
+				D092C5C21ACD776B00D043D6 /* XBLoadingButton.h */,
+				D092C5C31ACD776B00D043D6 /* XBLoadingButton.m */,
+			);
+			name = XBLoadingButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D092C5C41ACD776B00D043D6 /* XBLoadingButton.m in Sources */,
 				D0DAD8801ACD6E1F000A48A0 /* ViewController.m in Sources */,
 				D0DAD87D1ACD6E1F000A48A0 /* AppDelegate.m in Sources */,
 				D0DAD87A1ACD6E1F000A48A0 /* main.m in Sources */,
@@ -412,6 +426,7 @@
 				D0DAD8991ACD6E20000A48A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0DAD89A1ACD6E20000A48A0 /* Build configuration list for PBXNativeTarget "XBLoadingButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				D0DAD89C1ACD6E20000A48A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

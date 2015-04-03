@@ -35,4 +35,4 @@ XBLoadingButton* btn = [[XBLoadingButton alloc] initWithFrame:CGRectMake(100, 20
     
 ## 样式图
 
-![](https://github.com/JxbSir/JinSlideVC/blob/master/Demo/ad/slideview.gif)
+![](https://raw.githubusercontent.com/JxbSir/XBLoadButton/master/screenshot.gif)
